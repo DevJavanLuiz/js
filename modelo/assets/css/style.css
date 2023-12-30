@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 3rem; 
+    color: #a535f0ff;
+}
+
+p{
+    margin-top: 1rem;
+    font-size: 2.0rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+    background-color: #a535f0ff;
+}
+.content-forms{
+    background-color: white;
+    width: 100%;
+    max-width: 80rem;
+    height: 70%;
+    border-radius: 2.0rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+form{
+    display: grid;
+    margin-top: 2rem;
+}
+
+.flexP{
+    display: flex;
+    min-width:60rem ;
+}
+.flexP p{
+    margin-left: 5rem;
+}
+
+input{
+   width: 100%;
+   max-width: 70rem;
+   height: 5rem;
+   border-radius: 4rem;
+   padding-left: 2rem;
+   border: 0.1rem solid rgb(183, 179, 179);
+   margin-bottom: 1.3rem ;
+   font-size: 1.6rem;
+   font-weight: 700;
+}
+label{
+    font-weight: bold;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-bottom: 1.0rem;
+}
+
+input:focus{
+    outline:0.1rem solid #a535f0ff;
+}
+button{
+    width: 50%;
+    height: 4.3rem;
+    margin-top: 1rem;
+    border-radius: 4rem;
+    border: 0.1rem solid rgb(183, 179, 179);
+    cursor: pointer;
+    background-color: #a535f0ff;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(165, 53, 240, 0.664);
+}
+
+form button{
+    justify-content: center;
+}
+.btn-result{
+    display: flex;
+    align-items: center;
+}
+
+.paragrafo{
+    background-color: rgb(109, 255, 182);
+    padding: 1.5rem;
+    margin-left: 2rem;
+    border-radius: 4rem ;
+    font-size: 1.4rem;
+}
+
+.paragrafoInvalido{
+    background-color: rgb(255, 82, 82);
+    padding: 1.5rem;
+    margin-left: 2rem;
+    border-radius: 4rem ;
+    font-size: 1.4rem;
+}
