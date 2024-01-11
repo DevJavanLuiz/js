@@ -15,6 +15,6 @@ const NumAleatorio =  Math.random () * (100 - 1) + 1 ;
 
 console.log(NumAleatorio.toFixed(0));
 
-console.log(!! 50 / 0);
+// console.log(!! 50 / 0);
 
 
